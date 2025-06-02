@@ -63,7 +63,7 @@ with DAG(
     
     run_spark_task = SparkSubmitOperator(
         task_id="run_spark_task",
-        application=f"{path_to_local_home}/dags/noaa_data_process.py",
+        application=f"{path_to_local_home}/scripts/noaa_data_process.py",
         conn_id="my_spark"
     )
 
