@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: snappy-premise-456414-i7
+    schema: dbt_weather
+
+    tables:
+      - name: weather_all
